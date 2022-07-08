@@ -31,7 +31,7 @@ const MainContent = (props: Props) => {
 
   return (
     <>
-      <SideContentMini cookies={props.cookies} space={props.space} />
+      {/* <SideContentMini cookies={props.cookies} space={props.space} /> */}
       <SideContent cookies={props.cookies} space={props.space} />
       {/* <FileExplorer space={props.space} /> */}
       {/* <NavigationContainer
